@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-13T08:28:50 IST" name="i7" finished-at="2023-05-13T08:29:07 IST" duration-ms="16506">
+    <groups>
+    </groups>
+    <test started-at="2023-05-13T08:28:50 IST" name="DriverScript" finished-at="2023-05-13T08:29:07 IST" duration-ms="16506">
+      <class name="com.automation.testscripts.DriverScript">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:com.automation.testscripts.DriverScript@5f8e8a9d]" started-at="2023-05-13T08:28:50 IST" name="openBrowser" finished-at="2023-05-13T08:28:57 IST" duration-ms="7110" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="execute(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.automation.testscripts.DriverScript@5f8e8a9d]" started-at="2023-05-13T08:28:59 IST" name="execute" data-provider="getTestdata" finished-at="2023-05-13T08:29:02 IST" duration-ms="2235" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_001_AddRemove]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Load Aplication URL]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[visit]]>
+              </value>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[https://www.saucedemo.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- execute -->
+        <test-method signature="execute(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.automation.testscripts.DriverScript@5f8e8a9d]" started-at="2023-05-13T08:29:02 IST" name="execute" data-provider="getTestdata" finished-at="2023-05-13T08:29:02 IST" duration-ms="382" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Enter UserName]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[setText]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[id=user-name]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- execute -->
+        <test-method signature="execute(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.automation.testscripts.DriverScript@5f8e8a9d]" started-at="2023-05-13T08:29:02 IST" name="execute" data-provider="getTestdata" finished-at="2023-05-13T08:29:02 IST" duration-ms="269" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Enter Password]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[setText]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[id=password]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- execute -->
+        <test-method signature="execute(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.automation.testscripts.DriverScript@5f8e8a9d]" started-at="2023-05-13T08:29:02 IST" name="execute" data-provider="getTestdata" finished-at="2023-05-13T08:29:03 IST" duration-ms="309" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Click on Login]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[click]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[id=login-button]]>
+              </value>
+            </param>
+            <param index="4">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- execute -->
+        <test-method signature="execute(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.automation.testscripts.DriverScript@5f8e8a9d]" started-at="2023-05-13T08:29:03 IST" name="execute" data-provider="getTestdata" finished-at="2023-05-13T08:29:03 IST" duration-ms="409" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Click on Add ToCart]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[click]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[id=add-to-cart-sauce-labs-backpack]]>
+              </value>
+            </param>
+            <param index="4">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- execute -->
+        <test-method signature="execute(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.automation.testscripts.DriverScript@5f8e8a9d]" started-at="2023-05-13T08:29:03 IST" name="execute" data-provider="getTestdata" finished-at="2023-05-13T08:29:03 IST" duration-ms="100" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Click on RemoveToCart]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[click]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[id=remove-sauce-labs-backpack]]>
+              </value>
+            </param>
+            <param index="4">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- execute -->
+        <test-method signature="execute(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.automation.testscripts.DriverScript@5f8e8a9d]" started-at="2023-05-13T08:29:03 IST" name="execute" data-provider="getTestdata" finished-at="2023-05-13T08:29:03 IST" duration-ms="125" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Click on Icon]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[click]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[id=react-burger-menu-btn]]>
+              </value>
+            </param>
+            <param index="4">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- execute -->
+        <test-method signature="execute(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.automation.testscripts.DriverScript@5f8e8a9d]" started-at="2023-05-13T08:29:03 IST" name="execute" data-provider="getTestdata" finished-at="2023-05-13T08:29:03 IST" duration-ms="146" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Click on Logout]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[click]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[id=logout_sidebar_link]]>
+              </value>
+            </param>
+            <param index="4">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- execute -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.automation.testscripts.DriverScript@5f8e8a9d]" started-at="2023-05-13T08:29:03 IST" name="closeBrowser" finished-at="2023-05-13T08:29:07 IST" duration-ms="3383" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.automation.testscripts.DriverScript -->
+    </test> <!-- DriverScript -->
+  </suite> <!-- i7 -->
+</testng-results>
