@@ -8,7 +8,7 @@ pipeline {
             }
         }
     stage('Test') {
-            parallel {
+      
                 stage('Critical Scenarios Execution') {
                     steps {
                         sh 'sleep 5s'
@@ -19,6 +19,6 @@ pipeline {
                 
             }
         }
-}        
+       
 }
 
