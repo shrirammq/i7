@@ -8,17 +8,23 @@ pipeline {
             }
         }
     stage('Test') {
-      
+            parallel {
                 stage('Critical Scenarios Execution') {
                     steps {
                         sh 'sleep 5s'
                         sh 'echo "Running Critical Scenarios Execution"'
-                        sh 'mvn -f pom.xml clean test'
+                        sh 'mvn test'
                     }
                 }
-                
+                stage('High Scenarios Exeecution') {
+                    steps {
+                        sh 'sleep 5s'
+                        sh 'echo "Running High Priority Scenarios Execution"'
+                        sh 'mvn test'
+                    }
+                }
             }
         }
-       
+}        
 }
 
