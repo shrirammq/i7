@@ -16,13 +16,7 @@ pipeline {
                         sh 'mvn test'
                     }
                 }
-                stage('High Scenarios Exeecution') {
-                    steps {
-                        sh 'sleep 5s'
-                        sh 'echo "Running High Priority Scenarios Execution"'
-                        sh 'mvn test -Dcucumber.filter.tags="@regression and @stage"'
-                    }
-                }
+                
             }
         }
 }        
