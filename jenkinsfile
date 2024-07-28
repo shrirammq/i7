@@ -13,7 +13,7 @@ pipeline {
                     steps {
                         sh 'sleep 5s'
                         sh 'echo "Running Critical Scenarios Execution"'
-                        sh 'mvn test'
+                        sh 'mvn -f pom.xml clean test'
                     }
                 }
                 
