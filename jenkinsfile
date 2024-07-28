@@ -1,0 +1,30 @@
+pipeline {
+    agent any
+    stages {
+    stage('Build') {
+            steps {
+                sh 'echo "Buuild the Project"'
+               
+            }
+        }
+    stage('Test') {
+            parallel {
+                stage('Critical Scenarios Execution') {
+                    steps {
+                        sh 'sleep 5s'
+                        sh 'echo "Running Critical Scenarios Execution"'
+                        sh 'mvn test'
+                    }
+                }
+                stage('High Scenarios Exeecution') {
+                    steps {
+                        sh 'sleep 5s'
+                        sh 'echo "Running High Priority Scenarios Execution"'
+                        sh 'mvn test -Dcucumber.filter.tags="@regression and @stage"'
+                    }
+                }
+            }
+        }
+}        
+}
+
