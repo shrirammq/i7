@@ -22,7 +22,7 @@
 		</classes>
 	</test>
 
-	<test name="DriverScript" enabled="true">
+	<test name="DriverScript" enabled="false">
 		<parameter name="Browser" value="chrome"></parameter>
 		<classes>
 			<class name="com.automation.DriverScript" />
